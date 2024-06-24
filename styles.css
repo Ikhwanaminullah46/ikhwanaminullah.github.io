@@ -1,25 +1,26 @@
 body {
+    background-color: #f0f0f0; /* Light Gray */
+    color: #333; /* Dark text for readability */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
+    background-color: #1E90FF; /* Dodger Blue */
     color: white;
-    padding: 1em 0;
+    padding: 1rem;
     text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 1em;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -28,28 +29,29 @@ nav ul li a {
 }
 
 section {
-    padding: 2em;
-    background-color: white;
-    margin: 1em auto;
-    max-width: 800px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 1rem 0;
 }
 
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5em;
+.project {
+    background-color: #FFD700; /* Gold */
+    color: #333;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
-.project, .blog-post {
-    margin-bottom: 2em;
+.project a {
+    color: #FF4500; /* Orange Red */
+    text-decoration: none;
 }
 
 footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #333;
+    background-color: #1E90FF; /* Dodger Blue */
     color: white;
+    text-align: center;
+    padding: 1rem;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
 }

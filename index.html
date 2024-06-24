@@ -3,65 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <style>
-        body {
-            background-color: #f0f0f0; /* Light Gray */
-            color: #333; /* Dark text for readability */
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #1E90FF; /* Dodger Blue */
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        .section {
-            padding: 2rem;
-            margin: 1rem 0;
-        }
-        .cta {
-            background-color: #FFD700; /* Gold */
-            color: #333;
-            padding: 1rem;
-            text-align: center;
-        }
-        .button {
-            background-color: #FF4500; /* Orange Red */
-            color: white;
-            padding: 0.5rem 1rem;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-    </style>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
-    </header>
-    <div class="container">
-        <div class="section">
-            <h2>About Me</h2>
-            <p>Hi, I'm Ikhwan Aminullah, a passionate data scientist and analyst. I love exploring data, discovering insights, and making data-driven decisions.</p>
-        </div>
-        <div class="section">
-            <h2>My Projects</h2>
+        <nav>
             <ul>
-                <li>Project 1: Data Analysis of XYZ</li>
-                <li>Project 2: Machine Learning Model for ABC</li>
-                <li>Project 3: Visualization of 123</li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a data scientist with experience in data analysis, machine learning, and data visualization.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Data Analysis Project</h3>
+            <p>Analyzed customer data to identify key trends and insights. <a href="https://github.com/Ikhwanaminullah46/data-analysis-project">View on GitHub</a></p>
         </div>
-        <div class="cta">
-            <h2>Contact Me</h2>
-            <a href="mailto:ikhwan@example.com" class="button">Get in Touch</a>
+        <div class="project">
+            <h3>Machine Learning Model</h3>
+            <p>Developed a machine learning model to predict customer churn. <a href="https://github.com/Ikhwanaminullah46/ml-model">View on GitHub</a></p>
         </div>
-    </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Ikhwan Aminullah. All rights reserved.</p>
+    </footer>
 </body>
 </html>
