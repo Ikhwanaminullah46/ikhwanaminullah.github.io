@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFD700; /* Gold */
+    color: #008080; /* Teal */
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ section {
 }
 
 .project a {
-    color: #FFD700; /* Gold */
+    color: #008080; /* Teal */
     text-decoration: none;
 }
 
