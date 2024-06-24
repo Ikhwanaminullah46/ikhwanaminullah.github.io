@@ -1,14 +1,14 @@
 body {
-    background-color: #f0f0f0; /* Light Gray */
-    color: #333; /* Dark text for readability */
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #1E90FF; /* Dodger Blue */
-    color: white;
+    background-color: #000000; /* Black */
+    color: #FFFFFF; /* White */
     padding: 1rem;
     text-align: center;
 }
@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #FFD700; /* Gold */
     text-decoration: none;
 }
 
@@ -34,21 +34,21 @@ section {
 }
 
 .project {
-    background-color: #FFD700; /* Gold */
-    color: #333;
+    background-color: #D3D3D3; /* Light Gray */
+    color: #000000; /* Black */
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
 }
 
 .project a {
-    color: #FF4500; /* Orange Red */
+    color: #FFD700; /* Gold */
     text-decoration: none;
 }
 
 footer {
-    background-color: #1E90FF; /* Dodger Blue */
-    color: white;
+    background-color: #000000; /* Black */
+    color: #FFFFFF; /* White */
     text-align: center;
     padding: 1rem;
     position: fixed;
